@@ -6,6 +6,7 @@ class Pessoa{
     var cpf: String = "088.002.000-99"
     private set
 
+    fun pessoaInf() = "$nome e $cpf"
 }
 
 fun main() {
@@ -13,4 +14,5 @@ fun main() {
 
     println(weslley.nome)
     println(weslley.cpf)
+    println(weslley.pessoaInf())
 }
